@@ -107,6 +107,7 @@
 .navbar .navbar-nav .nav-link {
   padding: 15px;
   color: var(--bs-white);
+  color: var(--bs-dark);
   font-weight: 500;
   font-size: 16px;
   outline: none;
@@ -115,7 +116,8 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-  color: var(--bs-primary);
+  /* color: var(--bs-primary); */
+  color: var(--bs-pink);
   transition: 0.5s;
 }
 
@@ -242,7 +244,7 @@
 
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/carousel-2.jpg) center center no-repeat;
+    url(../img/factory.png) center center no-repeat;
   background-size: cover;
   margin-bottom: 6rem;
 }
@@ -566,7 +568,7 @@
 
 .call-to-action {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../img/factory.png) center center no-repeat;
   background-size: cover;
 }
 
@@ -720,7 +722,7 @@
 /*** Footer Start ***/
 .footer {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(../img/carousel-2.jpg) center center no-repeat;
+    url(../img/factory.png) center center no-repeat;
   background-size: cover;
   color: rgba(255, 255, 255, 0.7);
   margin-top: 6rem;
